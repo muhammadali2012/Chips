@@ -1,33 +1,26 @@
 //
-//  ChipsTests.swift
-//  ChipsTests
+//  ChipsExampleTests.swift
+//  ChipsExampleTests
 //
-//  Created by Muhammad Ali on 30/01/2021.
+//  Created by Muhammad Ali on 14/02/2021.
 //
 
 import XCTest
-@testable import Chips
+@testable import ChipsExample
 
-class ChipsTests: XCTestCase {
-    var chips: Chips!
-
+class ChipsExampleTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        chips = Chips()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testAdd() throws {
+    func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertEqual(chips.add(a: 1, b: 1), 2)
-    }
-    func testSub() throws {
-        XCTAssertEqual(chips.sub(a: 1, b: 1), 0)
     }
 
     func testPerformanceExample() throws {
