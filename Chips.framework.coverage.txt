@@ -1,0 +1,20 @@
+    1|       |//
+    2|       |//  Chips.swift
+    3|       |//  Chips
+    4|       |//
+    5|       |//  Created by Muhammad Ali on 14/02/2021.
+    6|       |//
+    7|       |
+    8|       |import Foundation
+    9|       |public final class Chips {
+   10|       |    let name = "Chips"
+   11|       |    
+   12|      1|    public func add(a: Int, b: Int) -> Int {
+   13|      1|        return a + b
+   14|      1|    }
+   15|       |    
+   16|      1|    public func sub(a: Int, b: Int) -> Int {
+   17|      1|        return a - b
+   18|      1|    }
+   19|       |}
+
